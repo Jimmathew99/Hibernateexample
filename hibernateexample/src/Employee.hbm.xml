@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Aug 2, 2024, 4:08:01 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="bean.Employee" table="EMPLOYEE">
+        <id name="id" type="int">
+            <generator class="assigned" />
+        </id>
+        <property name="firstName" >
+        </property>
+        <property name="lastName" >
+        </property>
+    </class>
+</hibernate-mapping>
